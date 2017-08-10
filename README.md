@@ -50,15 +50,16 @@ git cgl: 列出 global 配置;
 git cgu [要删除的配置]: 删除特定的配置;
 
 
-
-
 ```
 
 
 ### 删除一个配置
+使用下列之一
 ```
 
 git config --global --unset alias.ci
+
+git cgu alias.ci
 
 ```
 
